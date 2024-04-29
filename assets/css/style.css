@@ -1,0 +1,213 @@
+/*------------- 
+Google Fonts
+--------------*/
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
+
+
+
+/*------------- 
+Global Styles
+--------------*/
+body {
+    background-color: #08071B;
+    font-family: "Titillium Web", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+body,
+h1,
+h2,
+h3,
+p,
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+button {
+    padding: 10px 30px;
+    color: #FFF;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.buy-now {
+    background-color: #4F34D7;
+    border: 2px solid #4F34D7;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+/*------------- 
+Header Styles
+--------------*/
+header {
+    background-image: url("../images/header-bg.png");
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: cover;
+    color: #fff;
+    padding: 20px 0;
+}
+
+/* Header Top  */
+
+.logo {
+    max-width: 100px;
+}
+
+header .header-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin-right: 10px;
+    list-style: none;
+    position: relative;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.fa-chevron-down {
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.dropdown ul {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    transition: 500ms;
+}
+
+.dropdown ul li {
+    border-top: 1px solid rgb(87, 76, 76);
+    margin-bottom: 10px;
+}
+
+.dropdown ul a {
+    color: #FFF;
+}
+
+.dropdown:hover ul {
+    display: block;
+    z-index: 1;
+}
+
+/* Nav button  */
+
+
+.login {
+    border: 2px solid #FF8A00;
+    background-color: #ffffff00;
+}
+
+.signup {
+    background-color: #FF8A00;
+    border: 2px solid #FF8A00;
+}
+
+/* Header Bottom  */
+.header-bottom-up {
+    padding: 100px 0 60px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-bottom-up-left,
+.header-bottom-down-left,
+.header-bottom-down-right {
+    width: 50%;
+}
+
+.header-bottom-up-right {
+    width: 40%;
+}
+
+.crypto-title {
+    font-size: 64px;
+    font-weight: 500;
+    line-height: 70px;
+}
+
+.crypto-info {
+    color: #C6C5E1;
+    padding: 20px 0;
+}
+
+.header-bottom-up img {
+    width: 100%;
+}
+
+.header-bottom-down {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 20px;
+}
+
+.slider-container {
+    width: 80%;
+}
+
+.range-container {
+    text-align: center;
+}
+
+.slider {
+    width: 100%;
+}
+
+input[type="range"] {
+    accent-color: #FF8A00;
+}
+
+.range-labels {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.range-label {
+    flex: 1;
+    font-size: 12px;
+}
+
+.countdown {
+    display: flex;
+    justify-content: space-between;
+}
+
+.sale {
+    width: 300px;
+    background-color: #140E32;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.sale h2 {
+    font-size: 30px;
+    color: #FFFFFF;
+    font-weight: 500;
+}
+
+.time h3 {
+    font-size: 40px;
+    color: #2CCEC3;
+    font-weight: bold;
+}
