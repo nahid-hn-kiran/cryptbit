@@ -1,48 +1,4 @@
 /*------------- 
-Google Fonts
---------------*/
-@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
-
-
-
-/*------------- 
-Global Styles
---------------*/
-body {
-    background-color: #08071B;
-    font-family: "Titillium Web", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-}
-
-body,
-h1,
-h2,
-h3,
-p,
-ul {
-    margin: 0;
-    padding: 0;
-}
-
-button {
-    padding: 10px 30px;
-    color: #FFF;
-    border-radius: 10px;
-    cursor: pointer;
-}
-
-.buy-now {
-    background-color: #4F34D7;
-    border: 2px solid #4F34D7;
-}
-
-.container {
-    width: 1200px;
-    margin: 0 auto;
-}
-
-/*------------- 
 Header Styles
 --------------*/
 header {
@@ -210,4 +166,113 @@ input[type="range"] {
     font-size: 40px;
     color: #2CCEC3;
     font-weight: bold;
+}
+
+/*------------- 
+Main Styles
+--------------*/
+
+/* Platforms Section  */
+#platforms {
+    padding: 30px 0;
+    min-height: 500px;
+    background-image: url("../images/platform-bg.png");
+    background-repeat: no-repeat;
+    background-position: bottom;
+
+}
+
+.platform-cards {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+#line {
+    position: absolute;
+    left: 25%;
+}
+
+.platform-card {
+    width: 33.33%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px 0;
+    text-align: center;
+}
+
+.platform-card img {
+    width: 60px;
+    background-color: #140E32;
+    padding: 10px;
+    border: 1px solid #4F34D7;
+    border-radius: 10px;
+}
+
+.platform-title {
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.platform-text {
+    color: #8786A9;
+}
+
+/* Why Us Section style  */
+#why-us {
+    min-height: 600px;
+    padding: 40px 0;
+    background-image: url("../images/choose-us-bg.png");
+    background-repeat: no-repeat;
+    background-position: left top;
+}
+
+.us {
+    display: flex;
+    padding: 40px 0;
+    align-items: center;
+}
+
+.why-us-details {
+    padding: 20px;
+    background-color: #140E32;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    border-radius: 10px;
+}
+
+.why-us-thumbnail,
+.why-us-details {
+    width: 50%;
+}
+
+.why-us-thumbnail img {
+    width: 80%;
+}
+
+.our-detail {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.our-detail img {
+    width: 35px;
+    height: 35px;
+    background-color: #432728;
+    padding: 15px;
+    border-radius: 50%;
+}
+
+.why-us-title {
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+
+.detail-info .subtitle {
+    color: #8786A9;
+    text-align: left;
 }

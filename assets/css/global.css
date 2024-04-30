@@ -1,0 +1,64 @@
+/*------------- 
+Google Fonts
+--------------*/
+/* Titilliam  */
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
+
+/* Inter  */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+
+
+/*------------- 
+Global Styles
+--------------*/
+body {
+    background-color: #08071B;
+    color: #FFF;
+    font-family: "Titillium Web", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+body,
+h1,
+h2,
+h3,
+p,
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+button {
+    padding: 10px 30px;
+    color: #FFF;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.buy-now {
+    background-color: #4F34D7;
+    border: 2px solid #4F34D7;
+}
+
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.title {
+    width: 50%;
+    font-size: 50px;
+    font-weight: 500;
+    margin: 0 auto;
+    padding: 30px 0;
+    line-height: 55px;
+    text-align: center;
+}
+
+.subtitle {
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    text-align: center;
+}
